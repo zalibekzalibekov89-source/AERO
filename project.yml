@@ -1,0 +1,23 @@
+
+name: AERO
+
+options:
+  bundleIdPrefix: com.aero
+  deploymentTarget:
+    iOS: "15.0"
+
+targets:
+  AERO:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.aero.menu
+        PRODUCT_NAME: AERO
+        INFOPLIST_KEY_CFBundleDisplayName: AERO
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        IPHONEOS_DEPLOYMENT_TARGET: "15.0"
